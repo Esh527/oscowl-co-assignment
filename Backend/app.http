@@ -1,0 +1,16 @@
+get http://localhost:3005/getTodosList
+
+###
+POST  http://localhost:3005/addtask
+
+####
+GET  http://localhost:3005/users
+
+####
+POST  http://localhost:3005/login
+
+###
+POST  http://localhost:3005/register
+
+###
+DELETE http://localhost:3005/delete/4

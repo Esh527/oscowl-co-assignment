@@ -1,0 +1,64 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #333131;
+}
+
+.login-div {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: rgb(4, 120, 245) 0px 20px 30px -10px;
+  width: 350px;
+}
+
+.signup-button{
+  background-color: #ff6e6e;
+  border-radius: 7px 7px 7px 7px;
+  border-style: solid;
+border-color: rgb(71, 63, 63);
+height: 30px;
+}
+
+/* Styles for larger screens */
+@media (min-width: 1024px) {
+  .login-div {
+    width: 400px;
+  }
+}
+
+/* Styles for tablets */
+@media (min-width: 600px) and (max-width: 1023px) {
+  .login-div {
+    width: 300px;
+    padding: 20px;
+  }
+}
+
+/* Styles for mobile devices */
+@media (max-width: 599px) {
+  .login-div {
+    width: 90%; 
+    padding: 15px;
+  }
+
+  .heading-login {
+    font-size: 20px;
+  }
+
+  .input {
+    padding: 8px;
+  }
+
+  .login-button,
+  .signup-button {
+    padding: 10px 15px;
+  }
+
+  .error,
+  .error-2 {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,124 @@
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0f7fa; /* Light Blue background for Sign-Up */
+  }
+  
+  .login-div {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  .heading-login {
+    font-size: 26px;
+    text-align: center;
+    color: #0277bd; /* Blue color for heading */
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .login-button {
+    background-color: #00897b; /* Teal color for Sign-Up button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .login-button:hover {
+    background-color: #00796b;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .error-2 {
+    color: #ff4d4d;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Login Button Styling */
+  .login-button-signup {
+    background-color: #fafafa;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .login-button-signup:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .click-here{
+    text-decoration: underline;
+  }
+
+  /* For medium screens (tablets, small laptops) */
+@media (max-width: 768px) {
+  .login-div {
+    width: 90%; 
+    padding: 20px;
+  }
+
+  .heading-login {
+    font-size: 22px;
+  }
+
+  .input {
+    padding: 8px;
+  }
+
+  .login-button,
+  .login-button-signup {
+    padding: 10px 15px;
+  }
+}
+
+/* For smaller screens (mobile devices) */
+@media (max-width: 480px) {
+  .login-div {
+    width: 100%; /* Full width */
+    padding: 15px;
+  }
+
+  .heading-login {
+    font-size: 20px;
+  }
+
+  .input {
+    padding: 6px;
+  }
+
+  .login-button,
+  .login-button-signup {
+    padding: 8px 12px;
+  }
+
+  .error,
+  .error-2 {
+    font-size: 10px;
+  }
+}

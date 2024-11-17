@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.todos-bg-container {
+    background-color: #5cabad;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+/* .todos-bg-container :hover {
+    background-color: rgb(204, 204, 155);
+    font-size: 18px;
+  } */
+
+.todos-heading {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 46px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.create-task-heading {
+    font-family: "Times New Roman";
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+
+.btn-a{
+    margin-left: 10px;
+}
+
+.create-task-heading-subpart {
+    font-family: "Times New Roman";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.todo-items-heading {
+    font-family: "Times New Roman";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.todo-items-heading-subpart {
+    font-family: "Times New Roman";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+.todo-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: rgb(197, 98, 131);
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    border-width: 0px;
+    padding-left: 20px;
+    box-shadow: rgb(197, 98, 131) 0px 20px 30px -10px;
+}
+#inner-edit{
+    background-color: #096f92;
+    margin: 10px;
+}
+#inner-edit:hover{
+    background-color: green;
+}
+#inner-delete{
+    background-color: #096f92;
+    margin: 10px;
+}
+#inner-delete:hover{
+    background-color: red;
+}
+.todo,.todo-status{
+    font-weight: bold;
+    color:#524c5c;
+}
+.para{
+    font-family: "Times New Roman";
+    color: #112129;
+}
+
+.todo-item-container {
+    margin-top: 15px;
+}
+
+.todo-user-input {
+    background-color: white;
+    width: 98%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.button {
+    color: white;
+    background-color: #ffeb7925;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    border-color: rgb(68, 17, 17);
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.button:hover {
+    background-color: rgb(255, 130, 13);
+}
+.label-container {
+    background-color: #e6f6ff;
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #096f92;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+}
+
+.checkbox-input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.checkbox-label {
+    font-family: "Times New Roman";
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+}
+
+.delete-icon {
+    padding: 15px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+.logout-button-container{
+display: flex;
+flex-direction: row;
+justify-content: end;
+
+}
+.logout-button{
+    background-color: #28e7eb;
+    color: white;
+    background-color: #ffeb7925;
+    font-family: "Times New Roman";
+    font-size: 18px;
+    border-color: rgb(68, 17, 17);
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* For medium screens (tablets, small laptops) */
+@media (max-width: 768px) {
+    .todos-bg-container {
+      padding: 15px;
+      margin: 5px;
+    }
+  
+    .todos-heading {
+      font-size: 36px;
+    }
+  
+    .create-task-heading,
+    .todo-items-heading {
+      font-size: 28px;
+    }
+  
+    .todo-con {
+      flex-direction: column;
+      padding-left: 10px;
+    }
+  
+    .button {
+      font-size: 16px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  
+    .label-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .checkbox-input {
+      width: 18px;
+      height: 18px;
+    }
+  
+    .checkbox-label {
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    .todo-item-container {
+      margin-top: 10px;
+    }
+  
+    .logout-button {
+      font-size: 16px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  
+  /* For smaller screens (mobile devices) */
+  @media (max-width: 480px) {
+    .todos-bg-container {
+      padding: 10px;
+      margin: 3px;
+    }
+  
+    .todos-heading {
+      font-size: 30px;
+    }
+  
+    .create-task-heading,
+    .todo-items-heading {
+      font-size: 24px;
+    }
+  
+    .todo-con {
+      flex-direction: column;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  
+    .button {
+      font-size: 14px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  
+    .label-container {
+      width: 100%;
+      padding: 5px;
+    }
+  
+    .checkbox-input {
+      width: 15px;
+      height: 15px;
+    }
+  
+    .checkbox-label {
+      font-size: 12px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  
+    .todo-item-container {
+      margin-top: 8px;
+    }
+  
+    .logout-button {
+      font-size: 14px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+  
