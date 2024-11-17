@@ -6,7 +6,7 @@ Objective: My task is like to developed is an Todo application, which provides a
 This is a dynamic frontend application built with HTML, CSS, JavaScript, React JS, Node JS and SQL.
 
 ## Live Demo 
-[View Live](https://jobbyapp.ccbp.tech/)
+[View Live](https://oscowl-co-assignment-tan.vercel.app/)
 
 ## Features
 - Responsive Design
